@@ -9,6 +9,8 @@
 
 ## Comandos principais do git
 
+
+
 `git config  user.name` e `git config  user.email`
 
 Verificar usuário/email
@@ -23,11 +25,17 @@ Mudar usuário e e-mail de forma global
 
 `git init`
 
-Inicializar um repositório (executado dentro da pasta)
+Inicializar um repositório (executado dentro da pasta).
+
+`git branch nome-branch-atual nome-branch-nova`
+
+Renomear branches
+
+Para alterar a branch de **master** para **main** (novo padrão), usaríamos: `git branch master main`
 
 `git status`
 
-Verificar o status atual
+Verificar o status atual.
 
 `git add nomearquivo`
 
@@ -35,4 +43,8 @@ Adicionar (Tornar rastreável) ao monitoramento do git.
 
 `git commit -m "texto da mensagen sobre a alteração"`
 
-fazer commit das alterações (salvar no historico)
+fazer commit das alterações (salvar no historico).
+
+`git remote add origin endereço-do-repositório.git`
+
+adicionar/conectar o repositório remoto ao local.
