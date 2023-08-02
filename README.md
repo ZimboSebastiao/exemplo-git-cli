@@ -29,3 +29,10 @@ Inicializar um repositório (executado dentro da pasta)
 
 Verificar o status atual
 
+`git add nomearquivo`
+
+Adicionar (Tornar rastreável) ao monitoramento do git.
+
+`git commit -m "texto da mensagen sobre a alteração"`
+
+fazer commit das alterações (salvar no historico)
